@@ -61,7 +61,7 @@ paths:
         '200':
           $ref: '#/components/responses/200'
       security:
-        -
+        -  title: 'Testing annotations from bugreports'
           bearerAuth: []
 components:
   responses:
@@ -98,3 +98,4 @@ security:
 tags:
   -
     name: endpoints
+  title: 'Testing annotations from bugreports'
